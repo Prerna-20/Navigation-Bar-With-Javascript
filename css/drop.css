@@ -1,0 +1,46 @@
+
+body{
+    background: pink;
+}
+.bar{
+    border: 2px solid blue;
+    margin: 2px;
+    display: block;
+}
+
+.nav-bar{
+   display: none;
+background: white;
+}
+.toggle_bar{
+    padding: 10px;
+    background: rgb(102, 101, 101);
+    width: 35px;
+}
+
+.tabs{
+    
+    list-style: none;
+
+background: yellowgreen;
+
+}
+.tabs li{
+    
+padding: 20px;
+width: 100%;
+
+}
+.tabs a{
+text-decoration: none;
+color: brown;
+
+font-size: 20px;
+
+}
+input:checked ~ .nav-bar{
+    display: block;
+    overflow: visible;
+    /* max-height=100%;
+    */
+}
