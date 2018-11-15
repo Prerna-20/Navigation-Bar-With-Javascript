@@ -14,8 +14,8 @@
         link[i].className = link[i].className.replace(/\bactive\b/g, "");
         desc[i].className = desc[i].className.replace(/\bactive\b/g, "");
     }
-        link[a].className += " " + "active"; 
-        desc[a].className += " " + "active";   
+        link[a].className += "active"; 
+        desc[a].className += "active";   
         if(window.matchMedia("(min-width : 320px) and (max-width : 768px)").matches){
             check.checked = false;
             title.innerHTML = link[a].text;
