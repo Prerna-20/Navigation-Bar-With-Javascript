@@ -1,7 +1,7 @@
  /* ------------- GLOBAL VARIABLES DECLARED -------------*/
 
- var link = document.getElementsByClassName('tabs')[0].getElementsByTagName('a');
- var desc = document.getElementsByClassName('tab_content')[0].getElementsByTagName('div');
+ var link = document.getElementById('tabs').getElementsByTagName('a');
+ var desc = document.getElementById('tab_content').getElementsByTagName('div');
  var check = document.getElementById('menu');
  var title = document.getElementById('title');
 
